@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/Rubik-Regular.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/Rubik-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/Rubik-Medium.ttf");
+  font-weight: 400;
+}
+
+body, html {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Rubik';
+}
+
+.wrap {
+  background-color: #0f1424;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .left {
+  padding: 0px 15px;
+}
+
+.container .right .right-item {
+  padding: 0px 15px;
+}
+
+.container .right .right-item .item-content {
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .right .right-item .item-content.work-card {
+  background-color: #ff8c66;
+}
+
+.container .right .right-item .item-content.play-card {
+  background-color: #56c2e6;
+}
+
+.container .right .right-item .item-content.study-card {
+  background-color: #ff5c7c;
+}
+
+.container .right .right-item .item-content.exercise-card {
+  background-color: #4acf81;
+}
+
+.container .right .right-item .item-content.social-card {
+  background-color: #7536d3;
+}
+
+.container .right .right-item .item-content.self-care-card {
+  background-color: #f1c65b;
+}
+
+.container .right .right-item .item-content .card-spec-img {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.container .right .right-item .item-content .item-content-bottom {
+  z-index: 10;
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #1c1f4a;
+  border-radius: 20px;
+}
+
+.container .right .right-item .item-content .item-content-bottom .content-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+}
+
+.container .right .right-item .item-content .item-content-bottom .content-footer p {
+  font-size: 14px;
+  opacity: .7;
+}
+/*# sourceMappingURL=style.css.map */
